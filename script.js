@@ -21,7 +21,6 @@ const checkNumber = (number) => {
 numberInput.addEventListener("input", () => {
     // Get the input value, parse it as an integer, and pass it to the checkNumber function
     const checkedNumber = checkNumber(numberInput.value);
-    console.log(parseInt(numberInput.value), numberInput.value);
     // Update the text content of the result element with the checked number
     result.textContent = checkedNumber;
 });
